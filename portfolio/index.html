@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="min-width=device-width; initial-scale=0.83;">
+	<link rel="stylesheet" href="css/glitch.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+
+	<title>My Portfolio</title>
+</head>
+<body>
+<ul class="m-menu">
+<li class="close-menu">&times;</li>
+	<li><a href="#" class="menu-link">Main</a></li>
+				<li><a href="#about-me" class="menu-link">About me</a></li>
+				<li><a href="#" class="menu-link">My works</a></li>
+				<li><a href="#" class="menu-link">Wiki</a></li>
+				<li><a href="#" class="menu-link">Contact</a></li>
+				<li><a href="#" class="sign-in-btn menu-link">Sign in</a></li>
+				<li><a href="#" class="fa fa-search"></a></li>
+</ul>
+<div class="main">
+	<div class="main-overlay"></div>
+	<div class="header">
+		<div class="logo">
+			<a href="#" alt="logo">iampash18</a>
+		</div>
+		<a href="#" class="m-menu-link"><i class="fa fa-bars"></i></a>
+		<div class="menu visible-lg">
+			<ul>
+				<li><a href="#" class="menu-link">Main</a></li>
+				<li><a href="#about-me" class="menu-link" >About me</a></li>
+				<li><a href="#" class="menu-link">My works</a></li>
+				<li><a href="#" class="menu-link">Wiki</a></li>
+				<li><a href="#" class="menu-link">Contact</a></li>
+				<li><a href="#" class="sign-in-btn menu-link">Sign in</a></li>
+				<li><a href="#" class="fa fa-search"></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="main-text ">
+		<span></span>
+		<a href="#" class="glitch"></a>
+		<h1>"Think twice,<br> code once"</h1>
+		<span></span>
+		<p> - Anonymous.</p>
+	</div>
+	<a href="#" class="header-arrow">
+		<div class="arrow-down">
+			<img src="img/arw_dwn.png" alt="scroll-down" class="arrow_d">
+		</div>
+	</a>
+</div>
+<div class="about-me">
+	<a href="#" id="about-me"></a>
+		<div class="am-header">
+		<span>About me</span>
+	</div>
+	<div class="am-table">
+		<div class="am-tags">
+			<div class="am-tag" style="padding-top: 40px;">
+				<img src="img/avatar.png" alt="Place for photo" >
+			</div>
+			<div class="am-tag" >
+				<h2>Pavlo Kravchenko</h2>
+				<h3>Python, Front-End(WEB), C++, JAVA, Zabbix, Asterisk. </h3>
+				<p><span>Birth date:</span> 9 april 1996 (21 years)</p>
+				<p><span>City:</span> Kyiv</p>
+				<p><span>More:</span> I study in State University of Telecomunications at Computer Engineering. Previously he studied at the Kiev Technical College of Electronic Devices at the Faculty of Software Development. </p>
+				<p><span>Language:</span>Ukrainian (Native), Russian, English - at the level of the technical documentation.</p>
+				<p><span>Personal qualities:</span>responsibility, initiative, accuracy, punctuality, good sense of humor.</p>
+			</div>
+		</div>
+	
+	</div>
+
+</div>	
+
+<div class="call-to-action">
+	<div class="cta-overlay"></div>
+	<div class="cta-wrap">
+	<span>Our contacts</span>
+	<p>e-mail: <a href="mailto:iamdev@ua.fm">iamdev@ua.fm</a></p>
+	<p>phone: <a href="tel:+380636107418">+380 63 610 74 18</a></p>
+	<button class="cta-btn">Contact Me </button>
+	</div>
+</div>	
+</div>
+<div class="footer-wrap">
+	<div class="footer">
+		<div class="f-logo">
+			<a href="#" alt="logo">iampash18</a>
+		</div>
+		<div class="footer-menu">
+			<ul>
+					<li><a href="#" class="footer-menu-link">Main</a></li>
+					<li><a href="#about-me" class="footer-menu-link">About me</a></li>
+					<li><a href="#" class="footer-menu-link">My works</a></li>
+					<li><a href="#" class="footer-menu-link">Wiki</a></li>
+					<li><a href="#" class="footer-menu-link">Contact</a></li>
+					<li><a href="#" class="footer-sign-in footer-menu-link">Sign in</a></li>
+				</ul>
+
+		</div>
+	
+	</div>
+	
+</div>
+<div class="line"></div>
+<div class="legal">
+	
+	<div class="copy">
+		<p>My own site. All rights reserved &copy;</p>
+	</div>
+	<div class="social-links">
+			<a href="https://twitter.com/Pavel_Key" alt="Me on twitter"><i class="fa fa-twitter"></i></a>
+			<a href="https://plus.google.com/u/0/100762012346178959169" alt="Me on Google+"><i class="fa fa-google-plus"></i></a>
+			<a href="https://www.facebook.com/iampash.dev" alt="Me on FB"><i class="fa fa-facebook"></i></a>	
+			<a href="https://github.com/iamdev18" alt="Me on Github"><i class="fa fa-github"></i></a>
+	</div>
+</div>
+
+<script
+  src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script>
+  	$(function() {
+  		var link = $('.m-menu-link');
+  		var close = $('.close-menu');
+  		var menu = $('.m-menu');
+  		link.on('click', function(event) {
+  			event.preventDefault();
+  			/* Act on the event */
+  			menu.toggleClass('m-menu__active');
+  		});
+  		close.on('click', function(event) {
+  			event.preventDefault();
+  			/* Act on the event */
+  			menu.toggleClass('m-menu__active');
+  		});
+  	});
+  </script>
+</body>
+</html>

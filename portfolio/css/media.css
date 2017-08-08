@@ -1,0 +1,60 @@
+@media(max-width: 1199px)/*Desktop*/{
+	html{
+		font-size: 8px;
+	}
+
+}
+@media(max-width: 991px)/*Tablet*/{
+	html{
+		font-size: 8px;
+	}
+	.visible-lg{
+		display: none;
+	}
+	.m-menu-link{
+		display: block;
+
+	}
+	.sign-in-btn{
+		margin: 0;
+
+	}
+	.am-tags{
+		font-size: 2rem;
+		flex-direction: column;
+	}
+	.am-tag{
+		width: 90%;
+		margin: 2rem auto;
+		
+	}
+	.am-table{
+		display: inline-block;
+		flex-direction: column;
+	}
+	.footer{
+		justify-content: center;
+	}
+	.footer-menu{
+		display: none;
+	}
+	.legal{
+		flex-direction: column;
+		padding-bottom: 5rem;
+	}
+	.social-links{
+		padding-top: 1rem;
+
+	}
+	.social-links a{
+		font-size: 5rem;
+	}
+
+
+}
+@media(max-width:500px)/*Smartphone*/{
+	html{
+		font-size: 7px;
+	}
+
+}
